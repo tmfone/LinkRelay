@@ -1,7 +1,7 @@
 LinkRelay
 ========================================
 
-![LinkRelay Logo][logo] LinkRelay is a utility that lets you switch your
+LinkRelay is a utility that lets you switch your
 default browser easily. You might find it useful if you're a web
 designer or use multiple browsers in your workflow.
 
