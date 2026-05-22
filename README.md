@@ -23,9 +23,6 @@ Features
 
 ![Screenshot of the LinkRelay overlay window](LinkRelay/en.lproj/linkrelay-overlay.png)
 
-Usage
-----------------------------------------
-N/A
 
 Building & Running
 ----------------------------------------
