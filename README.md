@@ -10,7 +10,7 @@ Install
 
 The app works with Mac OS X 26 (Tahoe) onwards.
 
-You can either **[download LinkRelay][download]** 
+Download the latest release from the [Releases page](https://github.com/tmfone/LinkRelay/releases).
 
 Features
 ----------------------------------------
