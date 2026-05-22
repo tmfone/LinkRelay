@@ -30,7 +30,7 @@ N/A
 Building & Running
 ----------------------------------------
 
-LinkRelay requires [CocoaPods][] in order to be built.
+LinkRelay requires [CocoaPods](https://cocoapods.org/) in order to be built.
 
 After cloning this repository, run:
 
@@ -42,7 +42,7 @@ in order to grab dependencies. Also, make sure that you open
 Copyright & About
 ----------------------------------------
 
-Copyright 2026, [tmf.one][]. LinkRelay is available under the MIT
+Copyright 2026, [tmf.one](https://tmf.one/). LinkRelay is available under the MIT
 License.
 
 
