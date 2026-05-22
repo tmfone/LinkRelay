@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="24765" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="24765" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24765"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,12 +19,12 @@
         <window title="LinkRelay Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" frameAutosaveName="OPrefWindow" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="196" y="240" width="400" height="245"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3440" height="1410"/>
             <view key="contentView" autoresizesSubviews="NO" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="730" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="400" height="245"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button id="5">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5">
                         <rect key="frame" x="18" y="214" width="183" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Launch on Login" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="18">
@@ -35,7 +35,7 @@
                             <action selector="toggleLoginItem:" target="-2" id="70"/>
                         </connections>
                     </button>
-                    <button id="6">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6">
                         <rect key="frame" x="16" y="188" width="177" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Autohide Status Bar Icon" bezelStyle="regularSquare" imagePosition="left" inset="2" id="17">
@@ -46,7 +46,7 @@
                             <action selector="toggleHideItem:" target="-2" id="71"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="7">
+                    <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
                         <rect key="frame" x="17" y="22" width="185" height="56"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="The global hotkey brings up the overlay window with all visible browsers. Use the num keys to switch browsers instantly." id="16">
@@ -55,7 +55,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="173">
+                    <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="173">
                         <rect key="frame" x="221" y="187" width="164" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="Once hidden, launch the app, or use the global hotkey to show the status bar icon" id="174">
@@ -64,7 +64,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="9">
+                    <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9">
                         <rect key="frame" x="17" y="113" width="93" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Global Hotkey" id="11">
@@ -73,15 +73,15 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <box verticalHuggingPriority="750" boxType="separator" id="10">
+                    <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="10">
                         <rect key="frame" x="18" y="-3" width="438" height="5"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </box>
-                    <customView id="155" customClass="MASShortcutView">
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="155" customClass="MASShortcutView">
                         <rect key="frame" x="20" y="86" width="163" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>
-                    <box autoresizesSubviews="NO" boxType="custom" borderType="line" title="Box" id="168">
+                    <box autoresizesSubviews="NO" fixedFrame="YES" boxType="custom" borderType="line" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="168">
                         <rect key="frame" x="20" y="144" width="360" height="1"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView" id="Sqe-tv-L4g">
@@ -90,7 +90,7 @@
                         </view>
                         <color key="borderColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </box>
-                    <box autoresizesSubviews="NO" boxType="custom" borderType="line" title="Box" id="169">
+                    <box autoresizesSubviews="NO" fixedFrame="YES" boxType="custom" borderType="line" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="169">
                         <rect key="frame" x="20" y="143" width="360" height="1"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView" id="ZN1-81-41q">
@@ -100,12 +100,12 @@
                         <color key="borderColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                         <color key="fillColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
                     </box>
-                    <imageView id="171">
+                    <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="171">
                         <rect key="frame" x="224" y="17" width="159" height="113"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="groove" image="linkrelay-overlay" id="172"/>
                     </imageView>
-                    <button id="Mdj-cI-2p7">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mdj-cI-2p7">
                         <rect key="frame" x="17" y="158" width="177" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Show Notifications" bezelStyle="regularSquare" imagePosition="left" inset="2" id="UHY-93-pxa">

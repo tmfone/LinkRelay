@@ -18,7 +18,6 @@
 		BC502C74166F6F0B0075E4D8 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = BC502C73166F6F0B0075E4D8 /* MainMenu.nib */; };
 		BC605B0A165B71D500933942 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC605B08165B71D500933942 /* Defaults.plist */; };
 		BC68B2D81653CF92009465F5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC68B2D71653CF92009465F5 /* Carbon.framework */; };
-		BC77344616ADED1900752685 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = BC77344516ADED1900752685 /* dsa_pub.pem */; };
 		BC8DDBC31670DB3D0098F508 /* Blacklist.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC8DDBC11670DB3D0098F508 /* Blacklist.plist */; };
 		BC9736A716806798002304FA /* BrowsersMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9736A616806798002304FA /* BrowsersMenu.m */; };
 		BC9736B01680ACC1002304FA /* BrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9736AF1680ACC1002304FA /* BrowserItem.m */; };
@@ -35,8 +34,6 @@
 		BCB54E0D164291F8003A59DF /* browser_selectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB54E0C164291F8003A59DF /* browser_selectorTests.m */; };
 		BCB54E191642926D003A59DF /* NSWorkspace+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB54E181642926D003A59DF /* NSWorkspace+Utils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BCBC14FB167F0E06007D12E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBC14FA167F0E06007D12E3 /* QuartzCore.framework */; };
-		BCDBFAA916ADE664006F1FCD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBFAA816ADE664006F1FCD /* Sparkle.framework */; };
-		BCDBFAAC16ADE6A9006F1FCD /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCDBFAA816ADE664006F1FCD /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BCE2D47C1681B36600F4B40D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9736A81680A8D0002304FA /* Localizable.strings */; };
 		BCE2D47F1681B76200F4B40D /* OverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2D47E1681B76200F4B40D /* OverlayWindow.m */; };
 		BCE2D4861681CD4300F4B40D /* OverlayWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2D4851681CD4300F4B40D /* OverlayWindowView.m */; };
@@ -68,7 +65,6 @@
 			dstPath = "";
 			dstSubfolder = Frameworks;
 			files = (
-				BCDBFAAC16ADE6A9006F1FCD /* Sparkle.framework in CopyFiles */,
 			);
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -94,7 +90,6 @@
 		BC502C73166F6F0B0075E4D8 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MainMenu.nib; sourceTree = "<group>"; };
 		BC605B09165B71D500933942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Defaults.plist; sourceTree = "<group>"; };
 		BC68B2D71653CF92009465F5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		BC77344516ADED1900752685 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = resources/dsa_pub.pem; sourceTree = "<group>"; };
 		BC7F331E1642A63700A2DAFD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		BC8DDBC21670DB3D0098F508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Blacklist.plist; sourceTree = "<group>"; };
 		BC9736A516806798002304FA /* BrowsersMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowsersMenu.h; sourceTree = "<group>"; };
@@ -126,7 +121,6 @@
 		BCB54E171642926D003A59DF /* NSWorkspace+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWorkspace+Utils.h"; path = "mozilla/NSWorkspace+Utils.h"; sourceTree = "<group>"; };
 		BCB54E181642926D003A59DF /* NSWorkspace+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSWorkspace+Utils.m"; path = "mozilla/NSWorkspace+Utils.m"; sourceTree = "<group>"; };
 		BCBC14FA167F0E06007D12E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BCDBFAA816ADE664006F1FCD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		BCE2D47D1681B76200F4B40D /* OverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayWindow.h; sourceTree = "<group>"; };
 		BCE2D47E1681B76200F4B40D /* OverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayWindow.m; sourceTree = "<group>"; };
 		BCE2D4841681CD4300F4B40D /* OverlayWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayWindowView.h; sourceTree = "<group>"; };
@@ -143,7 +137,6 @@
 				BCBC14FB167F0E06007D12E3 /* QuartzCore.framework in Frameworks */,
 				BC68B2D81653CF92009465F5 /* Carbon.framework in Frameworks */,
 				BCB54DE3164291F8003A59DF /* Cocoa.framework in Frameworks */,
-				BCDBFAA916ADE664006F1FCD /* Sparkle.framework in Frameworks */,
 				C57AFA7BC45F63236D4F5DDC /* libPods-LinkRelay.a in Frameworks */,
 			);
 		};
@@ -251,7 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				86946DC02FBF3F2500E0B63E /* LinkRelayIcon.icon */,
-				BCDBFAA816ADE664006F1FCD /* Sparkle.framework */,
 				BC08458E16849A7200619E60 /* Security.framework */,
 				BCBC14FA167F0E06007D12E3 /* QuartzCore.framework */,
 				BC68B2D71653CF92009465F5 /* Carbon.framework */,
@@ -290,7 +282,6 @@
 			isa = PBXGroup;
 			children = (
 				86946DC12FBF440600E0B63E /* LinkRelayIcon.icon */,
-				BC77344516ADED1900752685 /* dsa_pub.pem */,
 				307D52161689B493003D6C8C /* linkrelay-overlay.png */,
 				BC08459016849D2C00619E60 /* MoveApplication.strings */,
 				BC9736A81680A8D0002304FA /* Localizable.strings */,
@@ -383,7 +374,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2650;
-				ORGANIZATIONNAME = "nth loop";
+				ORGANIZATIONNAME = tmfone;
 			};
 			buildConfigurationList = BCB54DD8164291F8003A59DF /* Build configuration list for PBXProject "LinkRelay" */;
 			developmentRegion = en;
@@ -418,7 +409,6 @@
 				BC08459216849D2C00619E60 /* MoveApplication.strings in Resources */,
 				307D52181689B493003D6C8C /* linkrelay-overlay.png in Resources */,
 				86946DC22FBF440600E0B63E /* LinkRelayIcon.icon in Resources */,
-				BC77344616ADED1900752685 /* dsa_pub.pem in Resources */,
 			);
 		};
 		BCB54DFC164291F8003A59DF /* Resources */ = {
@@ -689,9 +679,14 @@
 			baseConfigurationReference = 1A16FB89B189A169D683F7E2 /* Pods-LinkRelay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20260521;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3UH32HB5GD;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -704,9 +699,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.1.1;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tmfone.--PRODUCT-NAME-rfc1034identifier-";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.tmfone.LinkRelay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmfone.LinkRelay;
 				PRODUCT_NAME = LinkRelay;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -717,9 +712,14 @@
 			baseConfigurationReference = B1FCC4D6C80F9B9D903BC35D /* Pods-LinkRelay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20260521;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3UH32HB5GD;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -732,9 +732,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.1.1;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tmfone.--PRODUCT-NAME-rfc1034identifier-";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.tmfone.LinkRelay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmfone.LinkRelay;
 				PRODUCT_NAME = LinkRelay;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				WRAPPER_EXTENSION = app;
 			};
