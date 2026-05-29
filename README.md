@@ -47,8 +47,7 @@ Credits
 ----------------------------------------
 
   - [nth loop (MIT Licensed, LinkRelay is a fork of their Objektiv project)](https://github.com/nthloop/Objektiv)
-  - [ZeroKit][] by eczarny (MIT Licensed, portions of source used)
-  - [MASShortcut][] by Vadim Shpakovski (BSD Licensed)
-  - [CDEvents][] by Aron Cedercrantz (MIT Licensed)
-  - [Sparkle][] by Andy Matuschak
-  - [NSWorkspace+Utils][1] from Mozilla's Camino project (MPL)
+  - [ZeroKit]by eczarny (MIT Licensed, portions of source used)
+  - [MASShortcut] by Vadim Shpakovski (BSD Licensed)
+  - [CDEvents] by Aron Cedercrantz (MIT Licensed)
+  - [NSWorkspace+Utils] from Mozilla's Camino project (MPL)
